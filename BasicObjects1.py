@@ -55,3 +55,43 @@ new_list=[3, 2, 5, 1, 7]
 new_list.sort()
 
 new_list
+
+################Dictionaries
+
+# Make a dictionary with {} and : to signify a key and a value
+my_dict = {'key1':'value1','key2':'value2'}
+
+# Call values by their key
+my_dict['key2']
+
+
+my_dict = {'key1':123,'key2':[12,23,33],'key3':['item0','item1','item2']}
+
+# Let's call items from the dictionary
+my_dict['key3']
+
+# Can call an index on that value
+my_dict['key3'][0]
+
+# Create a new dictionary
+d = {}
+
+# Create a new key through assignment
+d['animal'] = 'Dog'
+
+# Can do this with any object
+d['answer'] = 42
+
+d
+
+# Create a typical dictionary
+d = {'key1':1,'key2':2,'key3':3}
+
+# Method to return a list of all keys 
+d.keys()
+
+# Method to grab all values
+d.values()
+
+# Method to return tuples of all items  (we'll learn about tuples soon)
+d.items()
