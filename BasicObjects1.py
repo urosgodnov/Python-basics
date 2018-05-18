@@ -49,4 +49,8 @@ list1.reverse()
 
 list1
 # Sorting
+new_list=[3, 2, 5, 1, 7]
+
 new_list.sort()
+
+new_list
