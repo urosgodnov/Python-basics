@@ -93,5 +93,33 @@ d.keys()
 # Method to grab all values
 d.values()
 
-# Method to return tuples of all items  (we'll learn about tuples soon)
+# Method to return tuples of all items  
 d.items()
+
+
+################Set and Booleans
+#Sets are an unordered collection of unique elements.
+
+x = set()
+
+# We add to sets with the add() method
+x.add(1)
+
+x
+
+# Add a different element
+x.add(2)
+
+x
+
+# Try to add the same element
+x.add(1)
+
+x
+#Notice how it won't place another 1 there.
+
+#We can use set to distinct values
+# Create a list with repeats
+list1 = [1,1,2,2,3,4,5,6,1,1]
+
+set(list1)
